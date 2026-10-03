@@ -1,51 +1,74 @@
 # 📚 Book Management System
 
-A web-based Book Management System developed using PHP, MySQL, HTML, CSS and JavaScript.
+A full-stack web application for managing books, users, and favorite books.  
+Built as a portfolio project using **PHP, MySQL, HTML5, CSS3, and JavaScript**.
 
-## 🚀 Features
+## ✨ Features
 
-### 👤 Authentication
+### 🔐 Authentication
 - User registration
-- User login
-- User logout
+- User login and logout
 - Password hashing
-- Role-based access
+- User/Admin roles
+- Session-based authentication
 
-### 📚 Books
-- Display all books
-- Search books
+### 📖 Book Management
+- View all books
+- Search by title, author, or category
 - View book details
 - Add books
 - Edit books
 - Delete books
-- Upload book covers
+- Upload and replace book covers
 
 ### ❤️ Favorites
 - Add books to favorites
 - Remove books from favorites
-- View favorite books
+- Dedicated favorites page
 
 ### 👨‍💼 Admin Dashboard
-- View statistics
+- View system statistics
 - Manage books
-- Manage users
+- Manage registered users
 - Change user roles
 
 ### 👤 User Dashboard
 - View account information
 - View favorite books
-- Edit profile
+- Edit profile information
 
 ## 🛠️ Technologies
 
-- PHP
-- MySQL
-- HTML5
-- CSS3
-- JavaScript
-- XAMPP
-- Git
-- GitHub
+| Technology | Purpose |
+|---|---|
+| PHP | Backend development |
+| MySQL | Database |
+| HTML5 | Page structure |
+| CSS3 | User interface and responsive design |
+| JavaScript | Client-side interactions |
+| XAMPP | Local development environment |
+| Git | Version control |
+| GitHub | Project hosting |
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](assets/images/screenshots/home.png)
+
+### 🔐 Login
+![Login](assets/images/screenshots/login.png)
+
+### 📚 Books
+![Books](assets/images/screenshots/books.png)
+
+### 👨‍💼 Admin Dashboard
+![Admin Dashboard](assets/images/screenshots/admin-dashboard.png)
+
+### ➕ Add Book
+![Add Book](assets/images/screenshots/add-book.png)
+
+### ❤️ Favorites
+![Favorites](assets/images/screenshots/favorites.png)
 
 ## 📁 Project Structure
 
@@ -89,7 +112,7 @@ book-management/
 
 ## 🗄️ Database
 
-The project uses MySQL with three main tables:
+The application uses MySQL with three main tables:
 
 - `users`
 - `books`
@@ -105,23 +128,18 @@ book_management
 
 ### 1. Install XAMPP
 
-Install XAMPP and start:
+Start Apache and MySQL.
 
-- Apache
-- MySQL
+### 2. Clone the repository
 
-### 2. Copy the project
+```bash
+git clone https://github.com/el-hilali03/book-management.git
+```
 
-Place the project inside:
+Or place the project inside:
 
 ```text
 C:\xampp\htdocs\
-```
-
-Example:
-
-```text
-C:\xampp\htdocs\book-management\
 ```
 
 ### 3. Create the database
@@ -132,7 +150,7 @@ Open:
 http://localhost/phpmyadmin
 ```
 
-Create a database called:
+Create:
 
 ```text
 book_management
@@ -148,29 +166,36 @@ Open:
 config/database.php
 ```
 
-Make sure the database configuration matches your MySQL setup.
+Check the MySQL connection settings.
 
-### 5. Run the project
-
-Open:
+### 5. Run the application
 
 ```text
 http://localhost/book-management/
 ```
 
+## 🎯 Project Goals
+
+This project demonstrates practical experience with:
+
+- PHP backend development
+- MySQL database management
+- CRUD operations
+- Authentication and sessions
+- Role-based access
+- File uploads
+- Search functionality
+- Relational database design
+- JavaScript interactions
+- Responsive web interface
+- Git and GitHub workflow
+
 ## 👨‍💻 Author
 
-Ismail El hilali
+**Ismail**
 
-## 📌 Project Purpose
+GitHub: [@el-hilali03](https://github.com/el-hilali03)
 
-This project was created as a portfolio project to demonstrate practical skills in:
+## 📌 Portfolio Project
 
-- PHP development
-- MySQL databases
-- CRUD operations
-- Authentication
-- Session management
-- File uploads
-- JavaScript
-- Responsive web design
+This project was created as a web development portfolio project to demonstrate the ability to build a complete PHP/MySQL application from database design to frontend interface and GitHub deployment.
